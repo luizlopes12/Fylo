@@ -70,6 +70,7 @@ intro container
 @media(max-width: 768px){
     .intro{
         background: url('../img/bg-curvy-mobile.svg') no-repeat bottom;
+        background-size: contain;
         padding-bottom: 50px;
     }
     .intro-sub{
