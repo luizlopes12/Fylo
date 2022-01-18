@@ -41,11 +41,7 @@ Navbar aditional styles and details
 }
 @media(max-width: 768px){
     .nav a{
-        font-weight: 400;
         font-size: 95%;
         margin: 0 8px;
-        padding: 0;
-        color: #ffffffb3;
-        border-bottom: 1px solid transparent;
     }
 }
