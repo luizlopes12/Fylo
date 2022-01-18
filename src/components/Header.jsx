@@ -3,16 +3,24 @@ import '../styles/bootstrap.min.css'
 import '../styles/style.css'
 function Header() {
     return (
-        <div className=''>
-            <div className="logo">
-                <img src='./../img/logo.svg'/>
+        <div className='header container mt-sm-5 mt-3'>
+            <div className="row d-flex justify-content-between">
+            <div className="logo col-sm-2 col-4 p-2 text-start">
+                <img src={require('../img/logo.svg').default} alt='logo do site' className='img-fluid'/>
             </div>
-            <div className="nav">
-                <ul>
-                    <li>
-                        opa
+            <div className="navbar col-sm-4 col-8 d-flex justify-content-end">
+                <ul className='nav raleway'>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Features</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Team</a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#" className="nav-link">Sign In</a>
                     </li>
                 </ul>
+            </div>
             </div>
         </div>
     )
