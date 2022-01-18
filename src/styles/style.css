@@ -15,6 +15,9 @@ body{
     font-size: 16px;
     color: #ffffff;
 }
+/*
+Class raleway to change font 
+*/
 .raleway{
     font-family: 'Raleway', sans-serif;
 }
@@ -46,11 +49,67 @@ Navbar
 }
 /*
 /////////
-Apresentation
+intro container
 /////////
 */
-.Apresentation{
-    height: 100vh;
+.intro{
     background: url('../img/bg-curvy-desktop.svg') no-repeat bottom;
     background-size: contain;
+}
+.intro-contents{
+    max-width: 720px;
+}
+.intro-sub{
+    background-color: rgba(24,31,42,1);
+}
+.intro-sub p{
+    max-width: 720px;
+}
+.intro-texts p{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media(max-width: 768px){
+    .intro{
+        background: url('../img/bg-curvy-mobile.svg') no-repeat bottom;
+        padding-bottom: 50px;
+    }
+    .intro-img img{
+        width: 90%;
+    } 
+    .intro-texts, .intro-sub:only-child{
+        max-width: 88%;
+    }
+    .intro-texts h1{
+        font-size: 26px;
+    }
+    .intro-texts p{
+        font-size: 16px;
+    }
+}
+/*
+Button get started style
+*/
+.button{
+    color: #fff;
+    border: none;
+    padding: 18px 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #339ecc;
+    transition: background .2s ease-in;
+}
+.button:hover{
+    background: #65e2d9;
+}
+@media(max-width: 768px){
+    .button{
+        padding: 12px 75px;
+        font-size: 18px;
+    }
+    .button:hover{
+        background: #65e2d9;
+    }
 }

@@ -6,7 +6,7 @@ function Header() {
         <header className='header container mt-sm-5 mt-3'>
             <div className="row d-flex justify-content-between">
             <div className="logo col-sm-2 col-4 p-2 text-start">
-                <img src={require('../img/logo.svg').default} alt='logo do site' className='img-fluid'/>
+                <img src={require('../img/logo.svg').default} alt='Fylo logo' className='img-fluid'/>
             </div>
             <nav className="navbar col-sm-4 col-8 d-flex justify-content-end">
                 <ul className='nav raleway'>
