@@ -11,8 +11,8 @@ imports, fonts and initial styles
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #181f2a;
-    font-size: 14px;
+    background-color: #1c2431;
+    font-size: 16px;
     color: #ffffff;
 }
 .raleway{
@@ -20,12 +20,11 @@ body{
 }
 /*
 /////
-Navbar aditional styles and details
+Navbar
 /////
 */
 .nav a{
     font-weight: 400;
-    font-size: 16px;
     margin: 0 20px;
     padding: 0;
     color: #ffffffb3;
@@ -41,7 +40,17 @@ Navbar aditional styles and details
 }
 @media(max-width: 768px){
     .nav a{
-        font-size: 95%;
+        font-size: 90%;
         margin: 0 8px;
     }
+}
+/*
+/////////
+Apresentation
+/////////
+*/
+.Apresentation{
+    height: 100vh;
+    background: url('../img/bg-curvy-desktop.svg') no-repeat bottom;
+    background-size: contain;
 }
