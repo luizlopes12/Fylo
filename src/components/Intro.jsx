@@ -4,7 +4,7 @@ import '../styles/bootstrap.min.css'
 import '../styles/style.css'
 function Intro() {
     return (
-        <section>
+        <section className='intro-container'>
             <article  className='intro mt-5 pb-0'>
             <div className="intro-contents mx-auto d-flex align-items-center flex-column">
                 <div className="intro-img d-flex justify-content-center">

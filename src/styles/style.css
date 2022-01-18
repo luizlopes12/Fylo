@@ -52,15 +52,12 @@ Navbar
 intro container
 /////////
 */
-.intro{
+.intro-container{
     background: url('../img/bg-curvy-desktop.svg') no-repeat bottom;
     background-size: contain;
 }
 .intro-contents{
     max-width: 720px;
-}
-.intro-sub{
-    background-color: rgba(24,31,42,1);
 }
 .intro-sub p{
     max-width: 720px;
@@ -75,9 +72,12 @@ intro container
         background: url('../img/bg-curvy-mobile.svg') no-repeat bottom;
         padding-bottom: 50px;
     }
+    .intro-sub{
+        background-color: rgba(24,31,42,1);
+    }
     .intro-img img{
         width: 90%;
-    } 
+    }
     .intro-texts, .intro-sub:only-child{
         max-width: 88%;
     }
