@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
 import TestimonialsCards from "./shared/TestimonialsCards";
 function Testimonials() {
   return (
-    <div className="container-fluid bg d-flex flex-column justify-content-center pt-5">
+    <div className="testimonials container-fluid bg d-flex flex-column justify-content-center pt-5">
       <img src={require("../img/bg-quotes.png")} className="quotes" alt="Quotes image" />
       <div className="row">
         <div className="col">
