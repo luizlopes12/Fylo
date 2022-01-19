@@ -3,13 +3,13 @@ import React from 'react';
 function Footer() {
   return (
       <div className="footer container-fluid bg-footer pb-5">
-          <div className="container">
+          <div className="container-md ">
                 <div className="row mx-auto">
                     <div className="col">
                     <img src={require('../img/logo.svg').default} alt="Site logo image" />
                     </div>
                 </div>
-                <div className="row mt-4">
+                <div className="row mt-5">
                     <div className="col-sm-3 col-12">
                         <div className="row">
                             <div className="col-1">
@@ -58,7 +58,7 @@ function Footer() {
                         </p>
                     </div>
                 </div>
-                <p className='text-center eu'>Developed with ❤️ by <a href='' target='_blank'>Luizlopes12</a></p>
+                <p className='text-center eu mt-5'>Developed with ❤️ by <a href='https://github.com/luizlopes12' title='My github'target='_blank'>Luizlopes12</a></p>
           </div>
       </div>
   );

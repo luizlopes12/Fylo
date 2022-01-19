@@ -18,7 +18,7 @@ function Produtive() {
                 No email attachments required.
             </p>
             <div className="produtive-link d-inline">
-            <a href="#">See how Fylo works <img src={require('../img/icon-arrow.svg').default} alt="Arrow link image"/></a>
+            <a href="#" title='illustrative'>See how Fylo works <img src={require('../img/icon-arrow.svg').default} alt="Arrow link image"/></a>
             </div>
           </div>
           </div>

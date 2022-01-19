@@ -14,13 +14,13 @@ function Header() {
             <nav className="navbar col-sm-4 col-8 d-flex justify-content-end">
                 <ul className='nav raleway'>
                     <li className="nav-item">
-                        <Link to='/' className="nav-link">Features</Link>
+                        <Link to='/' className="nav-link" title='illustrative'>Features</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/' className="nav-link">Team</Link>
+                        <Link to='/' className="nav-link" title='illustrative'>Team</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/' className="nav-link">Sign In</Link>
+                        <Link to='/' className="nav-link" title='illustrative'>Sign In</Link>
                     </li>
                 </ul>
             </nav>
