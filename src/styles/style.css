@@ -221,6 +221,7 @@ Benefits cards
     border-radius: 10px;
     padding: 35px;
     width: 480px;
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 2.6px;
 }
 .testimonials-user-profile img{
     height: 60px;

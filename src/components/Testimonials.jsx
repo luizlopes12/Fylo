@@ -7,26 +7,41 @@ function Testimonials() {
       <div className="row d-flex justify-content-center mx-auto">
         <div className="col">
           <TestimonialsCards 
-          text=''
-          image='../img/profile-1.jpg'
-          name=''
-          bio=''
+          text='Fylo has improved our team productivity by an order of magnitude. 
+          Since making the switch our team has become a well-oiled collaboration machine.'
+
+          image={require('../img/profile-1.jpg')}
+
+          name='Satish Patel'
+          
+          bio='Founder & CEO, Huddle'
+          
           />
         </div>
         <div className="col">
-        <TestimonialsCards 
-          text=''
-          image='../img/profile-2.jpg'
-          name=''
-          bio=''
+          <TestimonialsCards 
+          text='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.'
+
+          image={require('../img/profile-2.jpg')}
+
+          name='Bruce McKenzie'
+          
+          bio='Founder & CEO, Huddle'
+          
           />
         </div>
         <div className="col">
-        <TestimonialsCards 
-          text=''
-          image='../img/profile-3.jpg'
-          name=''
-          bio=''
+          <TestimonialsCards 
+          text='Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+          become a well-oiled collaboration machine.'
+
+          image={require('../img/profile-3.jpg')}
+
+          name='Iva Boyd'
+          
+          bio='Founder & CEO, Huddle'
+          
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ function TestimonialsCards({name, bio, image, text}) {
       <div>{text}</div>
       <div className='testimonials-user-profile mt-3 row'>
           <div className="col-sm-2 col-2 h-2">
-            <img src={require(image)} alt="User profile image" />
+            <img src={image} alt="User profile image" />
           </div>
           <div className="col">
               <span className='raleway fw-bold'>{name}</span> 
