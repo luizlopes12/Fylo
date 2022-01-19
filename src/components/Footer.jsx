@@ -15,9 +15,8 @@ function Footer() {
                             <div className="col-1">
                             <img src={require('../img/icon-location.svg').default} alt="Locate icon" />
                             </div>
-                            <div className="col fs-6">
-                            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit. 
-                            Vide electram sadipscing et per. Per aumento de cachacis, eu reclamis. 
+                            <div className="col text-justify">
+                            Mussum Ipsum, cacilds vidis litro abertis. Admodum accumsan disputationi eu sit.  
                             </div>
                         </div>
                     </div>
