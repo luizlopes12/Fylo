@@ -5,6 +5,7 @@ import Benefits from './components/Benefits';
 import Produtive from './components/Produtive';
 import Testimonials from './components/Testimonials';
 import Form from './components/Form';
+import Footer from './components/Footer';
 function App() {
   return (
     <Fragment>
@@ -14,6 +15,7 @@ function App() {
     <Produtive/>
     <Testimonials/>
     <Form/>
+    <Footer/>
     </Fragment>
 
   );
