@@ -20,10 +20,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/responsive-landing-page-with-reactjs-9hQT04F8Z)
 - Live Site URL: [https://luizlopes12.github.io/Fylo/](https://luizlopes12.github.io/Fylo/)
 
-## My process
 
 ### Built with
 
