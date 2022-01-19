@@ -4,7 +4,7 @@ function Testimonials() {
   return (
     <div className="container-fluid bg d-flex flex-column justify-content-center pt-5">
       <img src={require("../img/bg-quotes.png")} className="quotes" alt="Quotes image" />
-      <div className="row d-flex justify-content-center mx-auto">
+      <div className="row">
         <div className="col">
           <TestimonialsCards 
           text='Fylo has improved our team productivity by an order of magnitude. 

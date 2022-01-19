@@ -213,14 +213,14 @@ Benefits cards
     width: 50px;
     position: relative;
     top: 25px;
-    left: 280px;
+    left: 5%;
 }
 .testimonials-card{
     background-color: #1c2431;
     font-size: 20px;
     border-radius: 10px;
     padding: 35px;
-    width: 480px;
+    width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 2.6px;
 }
 .testimonials-user-profile img{
@@ -234,6 +234,8 @@ Benefits cards
     font-size: 14px;
 }
 @media(max-width: 768px){
+}
+@media(max-width: 768px){
     .quotes{
         width: 50px;
         position: relative;
@@ -245,7 +247,7 @@ Benefits cards
         font-size: 16px;
         border-radius: 10px;
         padding: 20px;
-        width: 340px;
+        width: 290px;
         margin: auto;
     }
     .testimonials-user-profile img{
