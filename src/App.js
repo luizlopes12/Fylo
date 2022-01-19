@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Intro from './components/Intro'
 import Benefits from './components/Benefits';
 import Produtive from './components/Produtive';
+import Testimonials from './components/Testimonials';
 function App() {
   return (
     <Fragment>
@@ -10,6 +11,7 @@ function App() {
     <Intro/>
     <Benefits/>
     <Produtive/>
+    <Testimonials/>
     </Fragment>
 
   );

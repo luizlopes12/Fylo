@@ -161,15 +161,101 @@ Benefits cards
     }
 }
 .produtive-texts h4{
-    width: 60%;
+    width: 550px;
+    font-weight: bolder;
     font-size: 4em;
 }
 .produtive-texts p{
     width: 90%;
     font-size: 1.5em;
 }
-@media(max-width: 768px){
-/* .produtive-img img{
-    height: 50%;
+.produtive-link{
+    width: fit-content;
+    padding: 2px;
+    border-bottom: 4px solid #65e2d9;
+    transition: all .2s ease-in;
+}
+.produtive-link a{
+    text-decoration: none;
+    color: #65e2d9;
+    font-size: 1.7em;
+}
+.produtive-link:hover, p img{
+    filter: brightness(2);
+}
+.produtive-link img{
+    height: 40px;
+}
+/* .produtive-link img:hover{
+    filter: brightness(2);
 } */
+@media(max-width: 768px){
+    .produtive-texts h4{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .produtive-texts p{
+        width: 100%;
+        text-align: justify;
+        font-size: 1em;
+    }
+    .produtive-link{
+    border-bottom: 2px solid #65e2d9;
+    font-size: 55%;
+    }
+    .produtive-link img{
+        height: 20px;
+    }
+}
+.quotes{
+    width: 50px;
+    position: relative;
+    top: 25px;
+    left: 280px;
+}
+.testimonials-card{
+    background-color: #1c2431;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 35px;
+    width: 480px;
+}
+.testimonials-user-profile img{
+    height: 60px;
+    border-radius: 60px;
+}
+.testimonials-user-profile span{
+    font-size: 18px;
+}
+.testimonials-user-profile p{
+    font-size: 14px;
+}
+@media(max-width: 768px){
+    .quotes{
+        width: 50px;
+        position: relative;
+        top: 25px;
+        left: 10px;
+    }
+    .testimonials-card{
+        background-color: #1c2431;
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 20px;
+        width: 340px;
+        margin: auto;
+    }
+    .testimonials-user-profile img{
+        height: 45px;
+        border-radius: 60px;
+    }
+    .testimonials-user-profile span{
+        font-size: 16px;
+    }
+    .testimonials-user-profile p{
+        font-size: 12px;
+    }
+    
 }
