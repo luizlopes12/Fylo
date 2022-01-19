@@ -16,6 +16,12 @@ body{
     font-size: 16px;
     color: #ffffff;
 }
+p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.bg{
+    background-color: #181f2a;
+}
 /*
 Class raleway to change font 
 */
@@ -65,7 +71,6 @@ intro container
 }
 .intro-texts p{
     font-size: 23px;
-    color: rgba(255, 255, 255, 0.6);
 }
 
 @media(max-width: 768px){
@@ -120,10 +125,6 @@ Button get started style
 Benefits cards
 ////////
 */
-.benefits{
-    background-color: #181f2a;
-}
-
 .cards img{
     height: 180px;
     margin: auto;
@@ -138,12 +139,11 @@ Benefits cards
     font-size: 24px;
 }
 .card-texts p{
-    color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
 }
 @media(max-width: 768px){
     .cards img{
-        height: 90px;
+        height: 80px;
         margin: auto;
     }
     .card-texts{
@@ -159,4 +159,17 @@ Benefits cards
     .card-texts p{
         font-size: 18px;
     }
+}
+.produtive-texts h4{
+    width: 60%;
+    font-size: 4em;
+}
+.produtive-texts p{
+    width: 90%;
+    font-size: 1.5em;
+}
+@media(max-width: 768px){
+/* .produtive-img img{
+    height: 50%;
+} */
 }

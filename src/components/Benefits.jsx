@@ -4,7 +4,7 @@ import '../styles/style.css'
 function Benefits() {
     return (
         <Fragment>
-            <section className="benefits container-fluid">
+            <section className="container-fluid bg">
                 <div className="container">
                     <div className="card-group row d-flex justify-content-around pt-5">
                         <div className="cards col-sm-5 col-12 mt-sm-5 mt-5 pt-5 pt-sm-1 text-center">
