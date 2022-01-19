@@ -3,262 +3,272 @@
 imports, fonts and initial styles
 //////
 */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
-*,body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* outline: 1px solid red; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: #1c2431;
-    font-size: 16px;
-    color: #ffffff;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #1c2431;
+  font-size: 16px;
+  color: #ffffff;
 }
-p{
-    color: rgba(255, 255, 255, 0.7);
+p {
+  color: rgba(255, 255, 255, 0.7);
 }
-.bg{
-    background-color: #181f2a;
+.bg {
+  background-color: #181f2a;
 }
 /*
 Class raleway to change font 
 */
-.raleway{
-    font-family: 'Raleway', sans-serif;
+.raleway {
+  font-family: "Raleway", sans-serif;
 }
 /*
 /////
 Navbar
 /////
 */
-.nav a{
-    font-weight: 400;
-    margin: 0 20px;
-    padding: 0;
-    color: #ffffffb3;
-    border-bottom: 1px solid transparent;
+.nav a {
+  font-weight: 400;
+  margin: 0 20px;
+  padding: 0;
+  color: #ffffffb3;
+  border-bottom: 1px solid transparent;
 }
-.nav a:hover{
-    color: #ffffff;
-    border-bottom: 1px solid #fff;
+.nav a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
 }
-.nav a:visited{
-    color: #ffffff;
-    border-bottom: 1px solid #fff;
+.nav a:visited {
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
 }
-@media(max-width: 768px){
-    .nav a{
-        font-size: 90%;
-        margin: 0 8px;
-    }
+@media (max-width: 768px) {
+  .nav a {
+    font-size: 90%;
+    margin: 0 8px;
+  }
 }
 /*
 /////////
 intro container
 /////////
 */
-.intro-container{
-    background: url('../img/bg-curvy-desktop.svg') no-repeat bottom;
-    background-size: contain;
+.intro-container {
+  background: url("../img/bg-curvy-desktop.svg") no-repeat bottom;
+  background-size: contain;
 }
-.intro-contents{
-    max-width: 720px;
+.intro-contents {
+  max-width: 720px;
 }
-.intro-sub p{
-    max-width: 720px;
+.intro-sub p {
+  max-width: 720px;
 }
-.intro-texts p{
-    font-size: 23px;
+.intro-texts p {
+  font-size: 23px;
 }
 
-@media(max-width: 768px){
-    .intro{
-        background: url('../img/bg-curvy-mobile.svg') no-repeat bottom;
-        background-size: contain;
-        padding-bottom: 50px;
-    }
-    .intro-sub{
-        background-color: #181f2a;
-    }
-    .intro-img img{
-        width: 90%;
-    }
-    .intro-texts, .intro-sub:only-child{
-        max-width: 88%;
-    }
-    .intro-texts h1{
-        font-size: 26px;
-    }
-    .intro-texts p{
-        font-size: 16px;
-    }
+@media (max-width: 768px) {
+  .intro {
+    background: url("../img/bg-curvy-mobile.svg") no-repeat bottom;
+    background-size: contain;
+    padding-bottom: 50px;
+  }
+  .intro-sub {
+    background-color: #181f2a;
+  }
+  .intro-img img {
+    width: 90%;
+  }
+  .intro-texts,
+  .intro-sub:only-child {
+    max-width: 88%;
+  }
+  .intro-texts h1 {
+    font-size: 26px;
+  }
+  .intro-texts p {
+    font-size: 16px;
+  }
 }
 /*
 Button get started style
 */
-.button{
-    color: #fff;
-    border: none;
-    padding: 18px 100px;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: bolder;
-    background: #339ecc;
-    transition: background .2s ease-in;
+.button {
+  color: #fff;
+  border: none;
+  padding: 18px 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  background: #339ecc;
+  transition: background 0.2s ease-in;
 }
-.button:hover{
+.button:hover {
+  background: #65e2d9;
+}
+@media (max-width: 768px) {
+  .button {
+    padding: 12px 75px;
+    font-size: 18px;
+  }
+  .button:hover {
     background: #65e2d9;
-}
-@media(max-width: 768px){
-    .button{
-        padding: 12px 75px;
-        font-size: 18px;
-    }
-    .button:hover{
-        background: #65e2d9;
-    }
+  }
 }
 /*
 ////////
 Benefits cards
 ////////
 */
-.cards img{
-    height: 180px;
-    margin: auto;
+.cards img {
+  height: 180px;
+  margin: auto;
 }
-.card-texts{
+.card-texts {
   max-width: 80%;
   margin: auto;
 }
-.card-texts h4{
+.card-texts h4 {
+  font-weight: bolder;
+  padding-top: 20px;
+  font-size: 24px;
+}
+.card-texts p {
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .cards img {
+    height: 80px;
+    margin: auto;
+  }
+  .card-texts {
+    max-width: 100%;
+    margin: auto;
+  }
+  .card-texts h4 {
+    max-width: 100%;
     font-weight: bolder;
-    padding-top: 20px;
+    padding-top: 15px;
     font-size: 24px;
+  }
+  .card-texts p {
+    font-size: 18px;
+  }
 }
-.card-texts p{
-    font-size: 20px;
+/*
+///////////
+Stay produtive container
+///////////
+*/
+.produtive-texts h4 {
+  width: 550px;
+  font-weight: bolder;
+  font-size: 4em;
 }
-@media(max-width: 768px){
-    .cards img{
-        height: 80px;
-        margin: auto;
-    }
-    .card-texts{
-        max-width: 100%;
-        margin: auto;
-      }
-    .card-texts h4{
-        max-width: 100%;
-        font-weight: bolder;
-        padding-top: 15px;
-        font-size: 24px;
-    }
-    .card-texts p{
-        font-size: 18px;
-    }
+.produtive-texts p {
+  width: 90%;
+  font-size: 1.5em;
 }
-.produtive-texts h4{
-    width: 550px;
-    font-weight: bolder;
-    font-size: 4em;
+.produtive-link {
+  width: fit-content;
+  padding: 2px;
+  border-bottom: 4px solid #65e2d9;
+  transition: all 0.2s ease-in;
 }
-.produtive-texts p{
-    width: 90%;
-    font-size: 1.5em;
+.produtive-link a {
+  text-decoration: none;
+  color: #65e2d9;
+  font-size: 1.7em;
 }
-.produtive-link{
-    width: fit-content;
-    padding: 2px;
-    border-bottom: 4px solid #65e2d9;
-    transition: all .2s ease-in;
+.produtive-link:hover,
+p img {
+  filter: brightness(2);
 }
-.produtive-link a{
-    text-decoration: none;
-    color: #65e2d9;
-    font-size: 1.7em;
-}
-.produtive-link:hover, p img{
-    filter: brightness(2);
-}
-.produtive-link img{
-    height: 40px;
+.produtive-link img {
+  height: 40px;
 }
 /* .produtive-link img:hover{
     filter: brightness(2);
 } */
-@media(max-width: 768px){
-    .produtive-texts h4{
-        width: 100%;
-        margin-top: 20px;
-        text-align: center;
-        font-size: 1.3em;
-    }
-    .produtive-texts p{
-        width: 100%;
-        text-align: justify;
-        font-size: 1em;
-    }
-    .produtive-link{
+@media (max-width: 768px) {
+  .produtive-texts h4 {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  .produtive-texts p {
+    width: 100%;
+    text-align: justify;
+    font-size: 1em;
+  }
+  .produtive-link {
     border-bottom: 2px solid #65e2d9;
     font-size: 55%;
-    }
-    .produtive-link img{
-        height: 20px;
-    }
+  }
+  .produtive-link img {
+    height: 20px;
+  }
 }
-.quotes{
+/*
+/////////////
+Comments container
+/////////////
+*/
+.quotes {
+  width: 50px;
+  position: relative;
+  top: 25px;
+  left: 5%;
+}
+.testimonials-card {
+  background-color: #1c2431;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 35px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 2.6px;
+}
+.testimonials-user-profile img {
+  height: 60px;
+  border-radius: 60px;
+}
+.testimonials-user-profile span {
+  font-size: 18px;
+}
+.testimonials-user-profile p {
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .quotes {
     width: 50px;
     position: relative;
     top: 25px;
-    left: 5%;
-}
-.testimonials-card{
+    left: 10px;
+  }
+  .testimonials-card {
     background-color: #1c2431;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 10px;
-    padding: 35px;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 4px 4px 2.6px;
-}
-.testimonials-user-profile img{
-    height: 60px;
+    padding: 20px;
+    width: 290px;
+    margin: auto;
+  }
+  .testimonials-user-profile img {
+    height: 45px;
     border-radius: 60px;
-}
-.testimonials-user-profile span{
-    font-size: 18px;
-}
-.testimonials-user-profile p{
-    font-size: 14px;
-}
-@media(max-width: 768px){
-}
-@media(max-width: 768px){
-    .quotes{
-        width: 50px;
-        position: relative;
-        top: 25px;
-        left: 10px;
-    }
-    .testimonials-card{
-        background-color: #1c2431;
-        font-size: 16px;
-        border-radius: 10px;
-        padding: 20px;
-        width: 290px;
-        margin: auto;
-    }
-    .testimonials-user-profile img{
-        height: 45px;
-        border-radius: 60px;
-    }
-    .testimonials-user-profile span{
-        font-size: 16px;
-    }
-    .testimonials-user-profile p{
-        font-size: 12px;
-    }
-    
+  }
+  .testimonials-user-profile span {
+    font-size: 16px;
+  }
+  .testimonials-user-profile p {
+    font-size: 12px;
+  }
 }
