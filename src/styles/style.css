@@ -337,3 +337,31 @@ Comments container
     background-color: #0b1523;
   }
 }
+.footer p{
+  color: #fff;
+}
+.footer-socials img{
+  filter: invert(100%);
+  width: 45px;
+  margin: 4px;
+  border-radius: 100px;
+  padding: 6px;
+  border: 2px solid #000;
+}
+.footer-socials img:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px #000000;
+  border: 2px solid #000;
+}
+@media(max-width: 768px){
+  .footer .section{
+    margin: 25px 2px;
+  }
+  .footer-socials img{
+    margin-top: 20px;
+    width: 30px;
+  }
+}
+.eu a{
+  color: #ffffff;
+}
