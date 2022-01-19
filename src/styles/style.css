@@ -8,6 +8,7 @@ imports, fonts and initial styles
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -74,7 +75,7 @@ intro container
         padding-bottom: 50px;
     }
     .intro-sub{
-        background-color: rgba(24,31,42,1);
+        background-color: #181f2a;
     }
     .intro-img img{
         width: 90%;
@@ -112,5 +113,50 @@ Button get started style
     }
     .button:hover{
         background: #65e2d9;
+    }
+}
+/*
+////////
+Benefits cards
+////////
+*/
+.benefits{
+    background-color: #181f2a;
+}
+
+.cards img{
+    height: 180px;
+    margin: auto;
+}
+.card-texts{
+  max-width: 80%;
+  margin: auto;
+}
+.card-texts h4{
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 24px;
+}
+.card-texts p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+@media(max-width: 768px){
+    .cards img{
+        height: 90px;
+        margin: auto;
+    }
+    .card-texts{
+        max-width: 100%;
+        margin: auto;
+      }
+    .card-texts h4{
+        max-width: 100%;
+        font-weight: bolder;
+        padding-top: 15px;
+        font-size: 24px;
+    }
+    .card-texts p{
+        font-size: 18px;
     }
 }
