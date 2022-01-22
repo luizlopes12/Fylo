@@ -1,8 +1,9 @@
-# Frontend Mentor - Fylo dark theme landing page solution with ReactJS
+## Frontend Mentor - Fylo dark theme landing page solution with ReactJS
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). 
 
-## Link 
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
   
 ### The challenge
 Users should be able to:
@@ -10,12 +11,15 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshots
+#### Gifs
+
+![Mobile](./gif-fylo.gif)
+
+#### Screenshots
 
 ![Desktop](./desk-screen2.png)
 ![Mobile](./mobile-screen2.png)
-![Desktop fullpage](./desk-screen.png)
-![Mobile fullpage](./mobile-screen.png)
+
 
 
 ### Links
