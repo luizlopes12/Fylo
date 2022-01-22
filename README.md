@@ -11,7 +11,11 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshots
+#### Gifs
+
+![Mobile](./gif-fylo.gif)
+
+#### Screenshots
 
 ![Desktop](./desk-screen2.png)
 ![Mobile](./mobile-screen2.png)
