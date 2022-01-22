@@ -4,7 +4,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Link 
   
 ### The challenge
 Users should be able to:
