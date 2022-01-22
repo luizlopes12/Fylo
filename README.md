@@ -14,8 +14,7 @@ Users should be able to:
 
 ![Desktop](./desk-screen2.png)
 ![Mobile](./mobile-screen2.png)
-![Desktop fullpage](./desk-screen.png)
-![Mobile fullpage](./mobile-screen.png)
+
 
 
 ### Links
